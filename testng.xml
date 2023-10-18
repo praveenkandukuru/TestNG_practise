@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<test name="regression testing">
+		<classes>
+			<class name="testngPractise.TestngPractise" />
+		</classes>
+	</test>
+	<test name="functional testing">
+		<classes>
+			<class name="testngPractise.TestngClass" />
+		</classes>
+	</test> 
+</suite>
